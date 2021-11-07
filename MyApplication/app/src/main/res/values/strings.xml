@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Car Finder</string>
+    <string name="channel_name">carfinder</string>
+    <string name="channel_description">Car Finder Notification channel</string>
+</resources>
