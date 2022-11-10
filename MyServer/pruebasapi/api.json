@@ -1,0 +1,28 @@
+POST
+{
+	"devicename": "acme",
+	"deviceaddress": "1232131",
+	"date": "2012-03-19T07:22Z",
+	"location": {
+		"latitude": 22,
+		"longitude": 33,
+		"accuracy": 44,
+		"description": "calle pepe"
+	}
+}
+
+GET ?deviceaddress=1232131&last=true
+{
+	"id": "77",
+	"bearer": "acme",
+	"devicename": "acme",
+	"deviceaddress": "1232131",
+	"date": "2012-03-19T07:22Z",
+	"location": {
+		"latitude": 22,
+		"longitude": 33,
+		"accuracy": 44,
+		"description": "calle pepe"
+	}
+}
+

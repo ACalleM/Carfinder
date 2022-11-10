@@ -1,0 +1,11 @@
+1	ID Primaria	int(11)			No	Ninguna		AUTO_INCREMENT	Cambiar Cambiar	Eliminar Eliminar	Más Más
+2	USER	varchar(255)	utf8mb4_unicode_ci		No	Ninguna			Cambiar Cambiar	Eliminar Eliminar	Más Más
+3	BEARER	varchar(255)	utf8mb4_unicode_ci		Sí	NULL			Cambiar Cambiar	Eliminar Eliminar	Más Más
+4	DEVICE_NAME	varchar(255)	utf8mb4_unicode_ci		No	Ninguna			Cambiar Cambiar	Eliminar Eliminar	Más Más
+5	DEVICE_ADDRESS	varchar(255)	utf8mb4_unicode_ci		No	Ninguna			Cambiar Cambiar	Eliminar Eliminar	Más Más
+6	DATE	datetime			No	Ninguna			Cambiar Cambiar	Eliminar Eliminar	Más Más
+7	LATITUDE	decimal(10,0)			No	Ninguna			Cambiar Cambiar	Eliminar Eliminar	Más Más
+8	LONGITUDE	decimal(10,0)			No	Ninguna			Cambiar Cambiar	Eliminar Eliminar	Más Más
+9	ACCURACY	decimal(10,0)			No	Ninguna			Cambiar Cambiar	Eliminar Eliminar	Más Más
+10	DESCRIPTION	varchar(2048)	utf8mb4_unicode_ci		Sí	NULL			Cambiar Cambiar	Eliminar Eliminar	Más Más
+
