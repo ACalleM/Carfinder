@@ -7,7 +7,7 @@ $input = json_decode(file_get_contents('php://input'));
 
 
 // connect to the mysql database
-$link = mysqli_connect('localhost', 'user', 'Xxxx01', 'carfinder');
+$link = mysqli_connect('localhost', '<appuser>', '<apppassword>', '<app>');
 mysqli_set_charset($link,'utf8');
  
 // create SQL based on HTTP method
