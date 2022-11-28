@@ -1,4 +1,4 @@
-POST
+POST http://<hostname>/<app>/devicelocations
 {
 	"devicename": "acme",
 	"deviceaddress": "1232131",
@@ -7,11 +7,11 @@ POST
 		"latitude": 22,
 		"longitude": 33,
 		"accuracy": 44,
-		"description": "calle pepe"
+		"description": "calle torrelaguna 65"
 	}
 }
 
-GET ?deviceaddress=1232131&last=true
+GET http://<hostname>/<app>/devicelocations?deviceaddress=1232131&last=true
 {
 	"id": "77",
 	"bearer": "acme",
@@ -22,7 +22,7 @@ GET ?deviceaddress=1232131&last=true
 		"latitude": 22,
 		"longitude": 33,
 		"accuracy": 44,
-		"description": "calle pepe"
+		"description": "calle torrelaguna 65"
 	}
 }
 
